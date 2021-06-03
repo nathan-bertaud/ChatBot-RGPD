@@ -1,0 +1,11 @@
+
+numpy 
+
+tflearn 
+
+tensorflow 
+
+spacy
+
+spacy_lefff
+

@@ -1,0 +1,379 @@
+:host {
+  display: block;
+}
+
+#container_falseinit {
+  display: flex;
+  position: absolute;
+  bottom: 2vh;
+  right: 2vw;
+  align-items: center;
+  justify-content: center;
+  padding: 13px;
+  
+  max-width: 400px;
+  width: 2em;
+  height: 2em;
+  
+}
+#container_false {
+  display: flex;
+  position: absolute;
+  bottom: 2vh;
+  right: 2vw;
+  align-items: center;
+  justify-content: center;
+  padding: 13px;
+  
+
+  width: 2em;
+  height: 2em;
+  max-width: 400px;
+  transition: 2s;
+}
+#container_true {
+  display: flex;
+  position: absolute;
+  bottom: 3vh;
+  right: 6.5vw;
+  
+  align-items: center;
+  justify-content: center;
+  padding: 13px;
+  
+  width: 80vw;
+  height: 70vh;
+  transition: 2s;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 400px;
+}
+
+.robot_falseinit {
+  width: 3em;
+  transition: 2s;
+}
+.robot_false {
+  width: 3em;
+  transition: 2s;
+}
+.robot_true {
+  width: 8em;
+  transition: 2s;
+}
+
+.exit_cross_true
+{
+  width: 30px;
+  height: 30px;
+  transition-delay: 1s;
+  transition: 1s;
+}
+
+.exit_cross_falseinit
+{
+  width: 0px;
+  height: 0px;
+  position : relative;
+  bottom: 100%;
+  left: 100%;
+}
+
+.exit_cross_false
+{
+  width: 0px;
+  height: 0px;
+  transition-delay: 1s;
+  transition: 1s;
+}
+.exit_chat_falseinit {
+  display: flex;
+  position: relative;
+  border-radius: 100%;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  height: 0px;
+  width: 0px;
+  bottom: 12%;
+  left: 12%;
+}
+.exit_chat_false {
+  display: flex;
+  position: relative;
+  border-radius: 100%;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  animation-duration: 1s;
+  animation-name: quitExitAnim;
+  animation-fill-mode: forwards;
+}
+
+.exit_chat_true {
+  display: flex;
+  position: relative;
+  border-radius: 100%;
+  z-index: 1;
+  align-items: center;
+  justify-content: center;
+  
+  animation-duration: 1s;
+  animation-name: openExitAnim;
+  animation-fill-mode: forwards;
+}
+
+
+
+@keyframes openExitAnim {
+  from {
+    bottom: 12%;
+    left: 12%;
+    height: 0px;
+    width: 0px;
+  }
+
+  to {
+    width: 60px;
+    height: 60px;
+    bottom: 50%;
+    left: 45%;
+  }
+}
+@keyframes quitExitAnim {
+  from {
+    width: 60px;
+    height: 60px;
+    bottom: 50%;
+    left: 45%;
+  }
+
+  to {
+    height: 0px;
+    width: 0px;
+    bottom: 12%;
+    left: 12%;
+  }
+}
+
+
+#backgroundrobot{
+  position: absolute;
+  background: linear-gradient(217deg, coral, blue 200.71%);
+  width: 100%;
+  height: 100%;
+  border-radius: 100px;
+  padding: 0px;
+  box-sizing: border-box;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+}
+
+
+
+.text__chat_falseinit  {
+  background-color: white;
+  padding: 5px;
+  visibility: hidden;
+  position: absolute;
+  top: 75%;
+  border-radius: 10px;
+  z-index: 1;
+  max-width: 80%;
+  text-align: center;
+  margin: 10px;
+}
+
+.text__chat_false {
+  background-color: white;
+  padding: 5px;
+  visibility: hidden;
+  position: absolute;
+  top: 75%;
+  border-radius: 10px;
+  z-index: 1;
+  max-width: 80%;
+  text-align: center;
+  margin: 10px;
+}
+
+.text__chat_true  {
+  background-color: white;
+  padding: 5px;
+  visibility: visible;
+  position: absolute;
+  top: 75%;
+  border-radius: 10px;
+  z-index: 1;
+  max-width: 80%;
+  text-align: center;
+  margin: 10px;
+  transition-delay: 0.5s;
+  
+}
+
+.text__said_falseinit_false{
+  background-color: white;
+  visibility: hidden;
+  padding: 5px;
+  position: absolute;
+  top:15%;
+  border-radius: 10px;
+  max-width: 80%;
+  z-index: 1;
+  text-align: center;
+  margin: 10px;
+}
+
+.text__said_false_false , .text__said_true_true{
+  background-color: white;
+  visibility: hidden;
+  padding: 5px;
+  position: absolute;
+  top:15%;
+  border-radius: 10px;
+  max-width: 80%;
+  z-index: 1;
+  text-align: center;
+  margin: 10px;
+  
+}
+.text__said_true_false{
+  background-color: white;
+  visibility: visible;;
+  padding: 5px;
+  position: absolute;
+  top:15%;
+  border-radius: 10px;
+  max-width: 80%;
+  z-index: 1;
+  text-align: center;
+  margin: 10px;
+  transition-delay: 0.5s;
+}
+
+
+.text__mike_falseinit{
+  
+  visibility: hidden;
+  position: absolute;
+  bottom:30%;
+}
+.text__mike_false{
+  
+  visibility: hidden;
+  position: absolute;
+  bottom:30%;
+}
+.text__mike_true{
+  
+  visibility: visible;
+  position: absolute;
+  bottom:30%;
+  transition-delay: 0.5s;
+}
+
+
+.loader_falseinit {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  visibility: hidden;
+  position: absolute;
+  bottom:32%;
+
+}
+.loader_false {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  visibility: hidden;
+  position: absolute;
+  bottom:32%;
+  transition-delay: 0.5s;
+}
+.loader_true {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  visibility: visible;
+  position: absolute;
+  bottom:32%;
+  transition-delay: 0.5s;
+}
+.loader_true .bar {
+  width: 10px;
+  height: 5px;
+  
+  margin: 2px;
+  animation: bar 1s infinite linear;
+}
+.loader_true .bar:nth-child(1) {
+  animation-delay: 0s;
+}
+.loader_true .bar:nth-child(2) {
+  animation-delay: 0.25s;
+}
+.loader_true .bar:nth-child(3) {
+  animation-delay: 0.5s;
+}
+
+@keyframes bar {
+	0% {
+    transform: scaleY(1) scaleX(0.5);
+    background: coral;
+	}
+
+	50% {
+    transform: scaleY(10) scaleX(1);
+    background:  rgb(247, 95, 40);
+	}
+
+	100% {
+    transform: scaleY(1) scaleX(0.5);
+    background: rgb(255, 71, 4);
+	}
+}
+
+img{
+  z-index: 1;
+}
+
+.waves {
+  width: 180%;
+  height: 100%;
+  position: absolute;
+  left: 0%;
+}
+
+
+.parallax > use {
+  animation: move-forever 25s cubic-bezier(0.55, 0.5, 0.45, 0.5) infinite;
+}
+.parallax > use:nth-child(1) {
+  animation-delay: -2s;
+  animation-duration: 22s;
+}
+.parallax > use:nth-child(2) {
+  animation-delay: -4s;
+  animation-duration: 15s;
+}
+.parallax > use:nth-child(3) {
+  animation-delay: -6s;
+  animation-duration: 17s;
+}
+.parallax > use:nth-child(4) {
+  animation-delay: -7s;
+  animation-duration: 12s;
+}
+@keyframes move-forever {
+  0% {
+    transform: translate3d(-90px, 0, 0);
+  }
+  100% {
+    transform: translate3d(85px, 0, 0);
+  }
+}

@@ -1,0 +1,2 @@
+model_checkpoint_path: "/home/Bertaud/Bureau/pts3-robot-rgpd/model.tflearn"
+all_model_checkpoint_paths: "/home/Bertaud/Bureau/pts3-robot-rgpd/model.tflearn"

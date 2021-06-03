@@ -1,0 +1,35 @@
+{"intents": [
+        {"tag": "fonctionnalites",
+         "patterns": ["Je veux connaitre tes fonctionnalites", "Donne moi tes fonctionnalites", "Tu peux me dire tes fonctionnalites", "Quelles sont tes fonctionnalites", "Dis moi tes fonctionnalites","Tu peux me dire a quoi tu sers ?",""],
+         "context_set": ""
+        },
+        {"tag": "question",
+         "patterns": ["Je peux poser quoi comme question ?", "Tu peux me repondre sur quels sujets ?", "Tu sais repondre a quoi ?", "Tu sais faire quoi ?", "Quoi comme questions ?"],
+         "context_set": ""
+        },
+        {"tag": "informations",
+         "patterns": ["Quels sont mes informations", "Je veux connaitre les informations que l'entreprise a sur moi", "Dis moi les informations que tu as sur moi", "Je veux mes informations", "Tu peux me parler de mes informations ?", "Tu as quoi comme informations sur moi ?", "Sinon tu sais repondre a mes questions sur mes informations"],
+         "context_set": ""
+        },
+        {"tag": "modifinformations",
+         "patterns": ["Modifier mes informations", "J'aimerai modifier mes informations", "Je souhaiterai modifier mes informations","Tu peux m'expliquer comment modifier mes informations", "Tu peux m'aider a modifier mes informations ?"],
+         "context_set": ""
+        },
+        {"tag": "supprinformations",
+         "patterns": ["Supprimer mes informations", "J'aimerai supprimer mes informations", "Je souhaiterai supprimer mes informations", "Je veux supprimer mes informations"],
+         "context_set": ""
+        },
+        {"tag": "consentements",
+         "patterns": ["Quels sont mes consentements", "Donne moi mes consentements", "Tu as des informations sur mes consentements?"],
+         "context_set": ""
+        },
+        {"tag": "retirerconsentements",
+         "patterns": ["Je voudrais retirer mon consentement", "Je souhaiterai retirer mes consentements", "J'aimerai supprimer mon consentement"],
+         "context_set": ""
+        },
+        {"tag": "rgpd",
+         "patterns": ["Qu'est ce le RGPD", "Comment est defini le RGPD", "Tu peux m'expliquer ce que c'est la RGPD","Parle moi de la RGPD", "Tu peux me parler de la RGPD ?"],
+         "context_set": ""
+        }
+   ]
+}

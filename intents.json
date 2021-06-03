@@ -1,0 +1,200 @@
+{
+    "intents": [
+        {
+            "fonctionnalites": [
+                {
+                    "patterns": [
+                        "Je veux connaitre tes fonctionnalites",
+                        "Donne moi tes fonctionnalites",
+                        "Tu peux me dire tes fonctionnalites",
+                        "Quelles sont tes fonctionnalites",
+                        "Dis moi tes fonctionnalites",
+                        "parle moi de ce que tu peux faire",
+                        "Tu peux me dire a quoi tu sers ?",
+                        "Fonctionnalit\u00e9 ?"
+                    ]
+                }
+            ]
+        },
+        {
+            "question": [
+                {
+                    "patterns": [
+                        "Je peux poser quoi comme question ?",
+                        "Tu peux me repondre sur quels sujets ?",
+                        "Peux tu me répondre ?",
+                        "Tu sais repondre a quoi ?",
+                        "Tu sais faire quoi ?",
+                        "Quoi comme questions ?",
+                        "Quels sont les questions que je peux te poser ?",
+                        "Questions ?",
+                        "Que sais-tu faire ?"
+                    ]
+                }
+            ]
+        },
+        {
+            "droits": [
+                {
+                    "patterns": [
+                        "Quels sont mes droits",
+                        "Je veux connaitre mes droits",
+                        "Dis moi les droits que j'ai",
+                        "Je veux savoir mes droits",
+                        "Tu peux me parler de mes droits ?",
+                        "Sinon tu sais repondre a mes questions sur mes droits",
+                        "L'entreprise poss\u00e8de t-elle des droits sur moi",
+                        "Je veux savoir toutes les droits que poss\u00e8de",
+                        "Donne moi les droits que poss\u00e8de",
+                        "Donne moi les droits qui me sont octroy\u00e9s",
+                        "Quels sont les droits qui me sont octroy\u00e9s",
+                        "Je veux savoir les droits que j'ai",
+                        "Montre moi tous les droits qui me sont octroy\u00e9s",
+                        "Dis moi quels sont tous mes droits",
+                        "Quels sont tous mes droits ?",
+                        "Comment je peux savoir mes droits ?",
+                        "Mes droits",
+                        "Droits ?"
+                    ]
+                }
+            ]
+        },
+        {
+            "informations": [
+                {
+                    "patterns": [
+                        "Quels sont mes informations",
+                        "Je veux connaitre les informations que l'entreprise a sur moi",
+                        "Dis moi les informations que tu as sur moi",
+                        "Je veux mes informations",
+                        "Tu peux me parler de mes informations ?",
+                        "Tu as quoi comme informations sur moi ?",
+                        "Sinon tu sais repondre a mes questions sur mes informations",
+                        "Poss\u00e8de tu des informations sur moi",
+                        "L'entreprise poss\u00e8de t-elle des informations sur moi",
+                        "Je veux savoir toutes les informations que poss\u00e8de l'entreprise poss\u00e8de sur moi",
+                        "Donne moi les informations que poss\u00e8de l'entreprise sur moi",
+                        "Donne moi les informations que l'entreprise poss\u00e8de a propos de moi"
+                    ]
+                }
+            ]
+        },
+        {
+            "modifinformations": [
+                {
+                    "patterns": [
+                        "Modifier mes informations",
+                        "J'aimerai modifier mes informations",
+                        "Je souhaiterai modifier mes informations",
+                        "Tu peux m'expliquer comment modifier mes informations",
+                        "Tu peux m'aider a modifier mes informations ?",
+                        "J'aimerais pouvoir modifier mes informations",
+                        "Comment modifier mes informations",
+                        "Je peux modifier mes informations ?",
+                        "Que puis-je modifier ?",
+                        "Est-ce que je peux apporter des modifications ?",
+                        "Quels sont toutes les modifications que je peux faire",
+                        "J'aimerais modifier mes informations",
+                        "J'aimerais modifier les informations que l'entreprise poss\u00e8de sur moi"
+                    ]
+                }
+            ]
+        },
+        {
+            "supprinformations": [
+                {
+                    "patterns": [
+                        "Supprimer mes informations",
+                        "J'aimerai supprimer mes informations",
+                        "Je souhaiterai supprimer mes informations",
+                        "Je veux supprimer mes informations",
+                        "Tu peux m'expliquer comment supprimer mes informations",
+                        "Tu peux m'aider a supprimer mes informations ?",
+                        "J'aimerais pouvoir supprimer mes informations",
+                        "Comment supprimer mes informations",
+                        "Je peux supprimer mes informations ?",
+                        "Que puis-je supprimer ?",
+                        "Est-ce que je peux apporter des changements ?",
+                        "Je souhaite supprimer mes donn\u00e9es",
+                        "J'aimerais supprimer mes informations",
+                        "J'aimerais supprimer les informations que l'entreprise poss\u00e8de sur moi"
+                    ]
+                }
+            ]
+        },
+        {
+            "consentements": [
+                {
+                    "patterns": [
+                        "Quels sont mes consentements",
+                        "Donne moi mes consentements",
+                        "Tu as des informations sur mes consentements?",
+                        "Je veux conna\u00eetre les diff\u00e9rents consentements",
+                        "Dis moi les consentements qui existe",
+                        "Je veux savoir les consentements",
+                        "Tu peux me parler des consentements ?",
+                        "Tu as quoi comme consentements ?",
+                        "Sais-tu quels sont les consentements ?",
+                        "Sinon tu sais repondre a mes questions sur les consentements",
+                        "Poss\u00e8de tu des consentements",
+                        "Je veux savoir touts les consentements",
+                        "Donne moi les consentements"
+                    ]
+                }
+            ]
+        },
+        {
+            "retirerconsentements": [
+                {
+                    "patterns": [
+                        "Je voudrais retirer mon consentement",
+                        "Je souhaiterai retirer mes consentements",
+                        "J'aimerai supprimer mon consentement",
+                        "Supprimer consentement",
+                        "J'aimerai supprimer mon consentement",
+                        "Je souhaiterai supprimer mes consentements",
+                        "Je veux supprimer mon consentement",
+                        "Tu peux m'expliquer comment supprimer mon consentement",
+                        "Tu peux m'aider a supprimer mes consentements ?",
+                        "J'aimerais pouvoir supprimer mon consentement",
+                        "Comment supprimer mon consentement",
+                        "Je peux supprimer mon consentement ?",
+                        "Je souhaite supprimer mes consentements",
+                        "J'aimerais supprimer mon consentement"
+                    ]
+                }
+            ]
+        },
+        {
+            "rgpd": [
+                {
+                    "patterns": [
+                        "Qu'est ce le RGPD",
+                        "Comment est defini le RGPD",
+                        "Tu peux m'expliquer ce que c'est la RGPD",
+                        "Parle moi de la RGPD",
+                        "Tu peux me parler de la RGPD ?",
+                        "Comment foncionne le RGPD ?",
+                        "Quel est l'objectif du RGPD ?",
+                        "D'o\u00f9 vient le RGPD ?",
+                        "Quand le RGPD est-il entr\u00e9 en vigeur",
+                        "C'est quoi une donn\u00e9e personnelle ?",
+                        "Que change le RGPD ?",
+                        "Qui doit se conformer au RGPD ?",
+                        "Quels sont les sanctions pr\u00e9vues par le RGPD ?",
+                        "Quels sont les donn\u00e9es concern\u00e9es par le RPGD ?",
+                        "Le GDPR c\u2019est quoi ?",
+                        "Qui est concern\u00e9 par le RGPD ?",
+                        "Tu peux me parler de la RPGD ?",
+                        "Qu’est-ce qu’un traitement de données personnelles ?",
+                        "A quand remonte la cr\u00e9ation du RGPD ?",
+                        "Qui est concern\u00e9 par le RGPD ?",
+                        "Quand a \u00e9t\u00e9 cr\u00e9e le RGPD ?",
+                        "Est-ce que le RGPD est obligatoire ?",
+                        "Quels sont les entreprises qui sont concerné par le RGPD"
+                    ]
+                }
+            ]
+        }
+    ]
+}

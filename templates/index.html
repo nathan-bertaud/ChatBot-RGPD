@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+    <html lang="fr">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Interface administrateur</title>
+        <link rel="stylesheet" href="{{ url_for('static', filename= 'css/style.css') }}">
+    </head>
+    
+<body>
+    <form action="{{ url_for('admin') }}" method="post">
+        <p >Couleur de fond du chatbot (vous pouvez l'appliquer au format RGB)</p>
+        <input type="color" name="color" value="#FF7F50" >
+
+        <p >Couleur secondaire pour le fond et couleur de la croix (vous pouvez l'appliquer au format RGB)</p>
+        <input type="color" name="color2" value="#FF4B50" >
+
+        <p >Chemin dans lequel vous avez enregistré votre logo au format .svg</p>
+        <input type="text" name="logo" value="robotique.svg">
+
+        <p >Email pour les réclamation</p>
+        <input type="text" name="mail" value="exemple@entreprise.com">
+
+        <p >Numéro de téléphone pour les réclamation</p>
+        <input type="number" name="numero" value="0656486985">
+
+        <input id="btn" type="submit" value="Valider">
+    </form>
+
+
+</body>
+</html>
